@@ -47,6 +47,9 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def  try_me():
+ print(' HOLAAA AMIGOS ')
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
@@ -57,6 +60,4 @@ if __name__ == '__main__':
     print(' dataframe cleaned')
 
 
-def  try_me():
- print(' HOLAAA AMIGOS ')
 
